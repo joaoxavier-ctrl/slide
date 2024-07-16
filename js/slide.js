@@ -23,6 +23,8 @@ export default class Slide{
 
     bindEvents(){
         this.onStart = this.onStart.bind(this);
+        this.onMove = this.onMove.bind(this);
+        this.onEnd = this.onEnd.bind(this);
     }
 
     init(){
